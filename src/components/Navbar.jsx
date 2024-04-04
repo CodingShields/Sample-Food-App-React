@@ -23,7 +23,7 @@ const Navbar = () => {
 						<AiOutlineMenu className='group-hover:scale-125 group-hover:text-white transition-all duration-300 ease-in-out' size={30} />
 					</div>
 					<h1 className='text-2xl sm:text-3xl lg:text-4xl px-2 group-hover:text-orange-500 transition-all duration-300 ease-in-out'>
-						Best <span className='font-bold'>Eats</span>
+						Gourmet <span className='font-bold'>Masterpiece</span>
 					</h1>
 				</div>
 
@@ -74,8 +74,8 @@ const Navbar = () => {
 				}
 			>
 				<AiOutlineClose onClick={() => setNav(!nav)} size={30} className='absolute right-4 top-4 hover:cursor-pointer' />
-				<h2 className='text-3xl p-4'>
-					Best <span className='font-bold'>Eats</span>
+				<h2 className='text-3xl p-4 '>
+					Gourmet <span className='font-bold'>Masterpiece</span>
 				</h2>
 				<nav>
 					<ul className='flex flex-col p-4 text-gray-800 space-y-8'>

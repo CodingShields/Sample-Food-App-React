@@ -3,6 +3,9 @@ export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
+			fontFamily: {
+				yellowTail: ["Yellowtail", "cursive"],
+			},
 			scale: {
 				105: "1.05",
 				110: "1.1",
